@@ -503,12 +503,12 @@ header .bag-button .counter-products {
     margin-bottom: 70px;
 }
 
-#reviews .card-review{
+#reviews .card-review {
     position: relative;
     left: 31px;
 }
 
-#reviews .card-review .cont-info{
+#reviews .card-review .cont-info {
     background: var(--white-color);
     position: absolute;
     width: 75%;
@@ -521,7 +521,7 @@ header .bag-button .counter-products {
     padding-left: 30px;
 }
 
-#reviews .card-review .cont-info img{
+#reviews .card-review .cont-info img {
     position: absolute;
     top: -35px;
     margin: 0 auto;
@@ -531,13 +531,14 @@ header .bag-button .counter-products {
     border-radius: 50%;
 }
 
-#reviews .card-review .cont-info h4{
+#reviews .card-review .cont-info h4 {
     font-size: var(--fs-title4s);
     color: var(--dark-color);
     margin-bottom: 10px;
     font-weight: 700;
 }
-#reviews .card-review .cont-info h5{
+
+#reviews .card-review .cont-info h5 {
     font-size: 12px;
     color: #666;
     margin-bottom: 20px;
@@ -545,11 +546,11 @@ header .bag-button .counter-products {
     font-weight: 300;
 }
 
-#reviews .stars i{
+#reviews .stars i {
     color: #f6b76f;
 }
 
-#reviews .stars i:nth-child(5){
+#reviews .stars i:nth-child(5) {
     opacity: 0.5;
 }
 
@@ -569,13 +570,88 @@ header .bag-button .counter-products {
     color: #0d1b39;
 }
 
+footer {
+    width: 100%;
+    position: relative;
+    padding: 90px 0;
+    background: #f7f7f7;
+}
 
+footer .logo {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
 
+footer .col-footer a {
+    text-decoration: none;
+    color: var(--dark-color);
+    display: block;
+    margin-bottom: 10px;
+}
 
+footer h3 {
+    color: var(--Primary-color);
+    font-size: 17px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+footer p {
+    font-size: var(--fs-text);
+    color: var(--dark-color);
+    width: 310px;
+}
+
+footer i {
+    margin-right: 10px;
+}
+
+footer .info {
+    padding-top: 60px;
+}
+
+footer .info a {
+    margin-right: 20px;
+}
 
 
 /* 6.Responsive Tablet */
-@media screen and(min-width:768px) and (max-width:1080px) {}
+@media screen and (min-width:768px) and (max-width:1080px) {
+
+    header{
+        height: 130vh;
+    }
+
+    #hero{
+        padding: 90px 70px;
+    }
+
+    #hero p{
+        padding: 40px 30px;
+    }
+
+    #experiences .cont-img img{
+        width: 100%;
+    }
+
+    #materials .cont-info{
+        padding: 40px;
+    }
+
+    #materials .cont-img-right img{
+        width: 100%;
+    }
+
+    #materials .cont-img-left img{
+        width: 100%;
+    }
+}
 
 /* 7.Responsive Smartphone */
 @media screen and(min-width:320px) and (max-width:767px) {}
