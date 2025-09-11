@@ -405,6 +405,85 @@ header .bag-button .counter-products {
     margin-left: 15px;
 }
 
+#materials {
+    width: 100%;
+    position: relative;
+    padding: 140px 0;
+}
+
+#materials .cont-info {
+    padding: 80px;
+}
+
+
+#materials .cont-info h3 {
+    color: var(--Primary-color);
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 120px;
+}
+
+#materials .cont-info h2 {
+    font-size: var(--fs-title2);
+    color: var(--dark-color);
+    font-weight: 700;
+    width: 420px;
+}
+
+#materials .cont-info p {
+    color: var(--dark-color);
+    font-size: var(--fs-text);
+    width: 550px;
+    margin-top: 20px;
+}
+
+#materials .cont-info a {
+    color: var(--Primary-color);
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#materials .cont-info a i {
+    margin-left: 4px;
+    transition: .5s;
+}
+
+#materials .cont-info a:hover i {
+    margin-left: 15px;
+}
+
+#materials .cont-img-left img {
+    margin-bottom: 40px;
+    margin-left: 220px;
+    border-radius: 20px;
+}
+
+#materials .cont-img-left img {
+    box-shadow: 0px 20px 20px 0px #b49692;
+}
+
+
+#materials .cont-img-right img {
+    border-radius: 20px 0 0;
+    position: relative;
+    right: -178px;
+    bottom: -100px;
+    box-shadow: 20px 11px 20px 0px #af7d43;
+}
+
+#materials .cont-img-right::before {
+    content: "";
+    width: 225px;
+    height: 420px;
+    position: absolute;
+    z-index: -1;
+    top: 175px;
+    right: 0px;
+    border-radius: 20px 0 0 0;
+    background: #f7f7f7;
+}
+
+
 
 
 
