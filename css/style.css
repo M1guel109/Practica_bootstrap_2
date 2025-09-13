@@ -701,6 +701,14 @@ footer .info a {
         padding: 40px 30px;
     }
 
+    #hero form input{
+        width: 270px;
+    }
+
+    #hero form button{
+        right: 18%;
+    }
+
     #choosing-us{
         text-align: center;
         padding: 20px 30px;
@@ -711,7 +719,7 @@ footer .info a {
     }
 
     #products ul{
-        width: 410px;
+        width: 100%;
     }
 
     #products .slick-arrow{
@@ -728,7 +736,7 @@ footer .info a {
 
     #experiences .cont-img::after{
         bottom: 0;
-        left: -50px;
+        left: -60px;
     }
 
     #experiences .cont-img::before{
