@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panto - shop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <!-- Slick CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
@@ -53,7 +55,7 @@
                 </button>
             </div>
         </nav>
-        <div id="hero">
+        <div id="hero"  data-aos="fade-up">
             <div id="carouselHeroSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -81,7 +83,7 @@
     <main>
         <section id="choosing-us">
             <div class="container">
-                <div class="row">
+                <div class="row" data-aos="fade-up" data-aos-duration="3000">
                     <div class="col-lg-3 col-md-6">
                         <h2>Why <br> Choosing Us</h2>
                     </div>
@@ -135,7 +137,7 @@
                     <div class="tab-pane fade show active" id="chair-tab-pane" role="tabpanel"
                         aria-labelledby="chair-tab" tabindex="0">
 
-                        <div class="slider-products">
+                        <div class="slider-products" data-aos="fade-down">
                             <div class="card-product">
                                 <div class="cont-img">
                                     <img src="img/Group 3742.png" alt="Foto producto">
@@ -861,7 +863,7 @@
                             expensive and famous capital but at a relatively low price</p>
                         <a href="#">More Info <i class="bi bi-arrow-right"></i></a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 cont-imgs">
                         <div class="row">
                             <div class="col-md-4 cont-img-left">
                                 <img src="img/Rectangle 1450.png" alt="Foto Muebles">
@@ -992,24 +994,24 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <a href="#" class="logo">Panto</a>
                     <p>The advantage of hiring a workspace with us is that givees you comfortable service and all-around
                         facilities.</p>
                 </div>
-                <div class="col-lg-2 col-footer">
+                <div class="col-md-2 col-footer">
                     <h3>Services</h3>
                     <a href="#">Email Marketing</a>
                     <a href="#">Campaigns</a>
                     <a href="#">Branding</a>
                 </div>
-                <div class="col-lg-2 col-footer">
+                <div class="col-md-2 col-footer">
                     <h3>Furniture</h3>
                     <a href="#">Beds</a>
                     <a href="#">Chair</a>
                     <a href="#">All</a>
                 </div>
-                <div class="col-lg-2 col-footer">
+                <div class="col-md-2 col-footer">
                     <h3>Follow Us</h3>
                     <a href="#"><i class="bi bi-facebook"></i>facebook</a>
                     <a href="#"><i class="bi bi-twitter"></i>Twiter</a>
@@ -1017,20 +1019,20 @@
                 </div>
             </div>
             <div class="row info">
-                <div class="col-lg-8">
+                <div class="col-md-8">
                     <p>Copyright © 2025. Lo</p>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-md-2">
                     <a href="#">Terms & Conditions</a>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-md-2">
                     <a href="#">Privacy policy</a>
                 </div>
             </div>
         </div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <!-- jQuery (obligatorio para Slick) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Slick Carousel JS -->

@@ -105,6 +105,15 @@ header .bag-button .counter-products {
     bottom: 0px;
 }
 
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: 1px solid #fff;
+}
+
 #hero {
     width: 100%;
     text-align: center;
@@ -452,21 +461,22 @@ header .bag-button .counter-products {
     margin-left: 15px;
 }
 
+#materials .cont-imgs{
+    overflow: hidden;
+}
+
 #materials .cont-img-left img {
     margin-bottom: 40px;
-    margin-left: 220px;
+    margin-left: 100px;
     border-radius: 20px;
-}
-
-#materials .cont-img-left img {
     box-shadow: 0px 20px 20px 0px #b49692;
-}
 
+}
 
 #materials .cont-img-right img {
     border-radius: 20px 0 0;
     position: relative;
-    right: -178px;
+    right: -100px;
     bottom: -100px;
     box-shadow: 20px 11px 20px 0px #af7d43;
 }
@@ -640,18 +650,154 @@ footer .info a {
         width: 100%;
     }
 
+    #experiences .cont-info p, .cont-info h2 {
+        max-width: 390px;
+    }
+
     #materials .cont-info{
         padding: 40px;
     }
 
-    #materials .cont-img-right img{
-        width: 100%;
+    #materials .cont-info p{
+        max-width: 400px;
     }
 
     #materials .cont-img-left img{
-        width: 100%;
+        margin-left: 50px;
+    }
+
+    #materials .cont-img-right img{
+        right: 0;
+    }
+
+    #reviews .card-review {
+        margin: 0 15px; /* Espacio horizontal */
+    }
+
+    footer i{
+        margin-right: 5px;
     }
 }
 
 /* 7.Responsive Smartphone */
-@media screen and(min-width:320px) and (max-width:767px) {}
+@media screen and (min-width:320px) and (max-width:767px) {
+    header{
+        height: 100vh;
+    }
+
+    header .bag-button{
+        display: none;
+    }
+
+    #hero{
+        padding: 30px 30px;
+    }
+
+    #hero h2{
+        font-size: 55px;
+    }
+
+    #hero p{
+        padding: 40px 30px;
+    }
+
+    #choosing-us{
+        text-align: center;
+        padding: 20px 30px;
+    }
+
+    #choosing-us h3{
+        padding-top: 15px;
+    }
+
+    #products ul{
+        width: 410px;
+    }
+
+    #products .slick-arrow{
+        right: -8px;
+    }
+
+    #experiences{
+        padding: 80px 0;
+    }
+
+    #experiences .cont-img img{
+        width: 100%;
+    }
+
+    #experiences .cont-img::after{
+        bottom: 0;
+        left: -50px;
+    }
+
+    #experiences .cont-img::before{
+        top: -50px;
+    }
+
+    #experiences .cont-info{
+        padding: 70px 30px;
+    }
+
+
+    #experiences .cont-info p, .cont-info h2 {
+        max-width: 390px;
+    }
+
+    #experiences .cont-info h2{
+        font-size: 35px;
+    }
+
+    #materials{
+        padding: 0;
+    }
+
+    #materials .cont-info{
+        padding: 40px;
+    }
+
+    #materials .cont-info h2{
+        font-size: 35px;
+        width: 100%;
+    }
+
+    #materials .cont-info p{
+        width: 100%;
+    }
+
+    #materials .cont-img-left img{
+        margin-left: 10px;
+    }
+
+    #materials .cont-img-right img{
+        top: -540px;
+        right: -145px;
+        width: 100%;
+    }
+
+    #materials .cont-img-right::before{
+        width: 150px;
+        top: 540px;
+    }
+
+    #reviews{
+        padding:0;
+    }
+
+    #reviews h2{
+        font-size: 35px;
+    }
+
+    #reviews .slick-arrow{
+        right: -8px;
+        padding: 0;
+    }
+
+    footer{
+        padding: 80px 30px;
+    }
+
+    footer i{
+        margin-right: 5px;
+    }
+}
