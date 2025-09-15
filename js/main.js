@@ -75,9 +75,8 @@ $(document).ready(function () {
             // instead of a settings object
         ]
     });
+    
+    AOS.init();
 
 });
 
-AOS.init({
-    duration: 3000,     
-});
